@@ -8,10 +8,10 @@ This application is built for individuals or organizations looking to get more a
 ## Running the App Locally
 
 1. Clone the repository to your local machine: 
-    `git clone https://github.com/quarterlylearnings/book-library-client.git`
+    `git clone https://github.com/Giovannyf99/React-Project.git`
 
 2. Navigate to the cloned repository: 
-    `cd book-library-client`
+    `cd React-Project`
 
 3. Install the dependencies: 
     `npm install`
@@ -22,7 +22,7 @@ This application is built for individuals or organizations looking to get more a
 The application will start on http://localhost:3000.
 
 ## Deployed Application
-You can access the deployed application at: https://cor-tech-library.onrender.com
+You can access the deployed application at: https://dictonary-project.onrender.com/
 
 ## Application Flow and Wireframes
 
