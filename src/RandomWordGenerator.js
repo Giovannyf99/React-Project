@@ -90,9 +90,9 @@ const RandomWordGenerator = () => {
     }, []);
 
     return (
-        <div className="bg-blue-700 min-h-screen">
-            <div className="container mx-auto px-4 py-10">
-                <h1 className="text-4xl font-bold text-center text-white mb-10">RANDOM WORD GENERATOR</h1>
+        <div className="bg-white min-h-screen">
+            <div className="container  py-10">
+                <h1 className="text-7xl font-bold text-center text-indigo-500 mb-10">RANDOM WORD GENERATOR</h1>
                 <div className="flex items-center justify-center mb-10">
                     <button
                         className="bg-red-500 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-red-600"
@@ -102,9 +102,9 @@ const RandomWordGenerator = () => {
                     </button>
                 </div>
                 {randomWord && (
-                    <div className="text-white text-center">
-                        <h2 className="text-3xl font-bold mb-4">Random Word: {randomWord}</h2>
-                        <p className="text-lg">Definition: {definition}</p>
+                    <div className="text-black text-center">
+                        <h2 className="text-3xl text-black font-bold mb-2">Random Word: {randomWord}</h2>
+                        <p className="text-lg text-indigo-500">Definition: {definition}</p>
                         {imageUrl && (
                             <div className="mt-4">
                                 <img src={imageUrl} alt={randomWord} className="mx-auto max-w-lg" />

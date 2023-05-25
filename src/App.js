@@ -6,6 +6,7 @@ import RandomWordGenerator from './RandomWordGenerator';
 
 const App = () => {
   return (
+    <>
     <Router>
       <div>
         <div className="container mx-auto">
@@ -17,6 +18,7 @@ const App = () => {
         </div>
       </div>
     </Router>
+    </>
   );
 };
 

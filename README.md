@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# Book Library Client
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+This is a client application built for interacting with the Dictonary API. It enables users to learn more words. 
 
-## Available Scripts
+This application is built for individuals or organizations looking to get more articulate. It solves the problem of time from manually looking at dictonarys to get the definition 
 
-In the project directory, you can run:
+## Running the App Locally
 
-### `npm start`
+1. Clone the repository to your local machine: 
+    `git clone https://github.com/quarterlylearnings/book-library-client.git`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. Navigate to the cloned repository: 
+    `cd book-library-client`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+3. Install the dependencies: 
+    `npm install`
 
-### `npm test`
+4. Start the application: 
+    `npm start`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The application will start on http://localhost:3000.
 
-### `npm run build`
+## Deployed Application
+You can access the deployed application at: https://cor-tech-library.onrender.com
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Application Flow and Wireframes
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The application has the following main screens:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+> ⚠️ These are low-fidelity _descriptions_ of the screens. Please include your wireframes as visual images here on the README or link to them if they're on another platform.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Home Screen: Shows the home page and has buttons to use the Dictonary and Random Word .
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Dictonary Screen: Shows a dictonary where you can search for words and it gives you the defintion and a example of it.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Random Word Generator Screen: Shows a button that generates random words for you to learn.
